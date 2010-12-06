@@ -18,3 +18,4 @@ The sortBy function can be written like this:
 
 let sortBy keyfn xs = Heap.tolist (Heap.fromlist key xs)
 
+Note that this is a O(n log n) sorting algorithm.
